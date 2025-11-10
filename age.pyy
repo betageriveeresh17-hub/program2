@@ -2,7 +2,7 @@ try:
     age = int(input("enter your Age"))
     if age>=18:
      print("you are eligible to vote")
-     else: 
+    else: 
      print("you are not eligible to vote")
 except Value Error:
       print("Please Enter a Valid Integer of Age")
